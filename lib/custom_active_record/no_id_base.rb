@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-require "custom-active-record/sjis-base"
+require "custom_active_record/sjis_base"
 
 module ActiveRecord
   class NOIDBase < ActiveRecord::SJISBase
