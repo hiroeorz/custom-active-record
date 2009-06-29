@@ -1,0 +1,5 @@
+require "rubygems"
+require "active_record"
+require "custom_active_record/sjis_base.rb"
+require "custom_active_record/no_id_base.rb"
+require "custom_active_record/plurals_pkeys_base.rb"
