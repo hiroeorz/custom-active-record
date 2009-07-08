@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{custom-active-record}
-  s.version = "0.1.6"
+  s.version = "0.1.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["hiroeorz"]
-  s.date = %q{2009-07-03}
+  s.date = %q{2009-07-08}
   s.email = %q{hiroe.orz@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
      "VERSION.yml",
      "custom-active-record.gemspec",
      "lib/custom_active_record.rb",
+     "lib/custom_active_record/flexible_name_base.rb",
      "lib/custom_active_record/no_id_base.rb",
      "lib/custom_active_record/plurals_pkeys_base.rb",
      "lib/custom_active_record/plurals_pkeys_sjis_base.rb",
